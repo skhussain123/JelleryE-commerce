@@ -1,0 +1,15 @@
+CREATE TABLE products(
+
+    id int AUTO_INCREMENT PRIMARY KEY,
+    Name text NOT null,
+    Price int NOT null,
+    offprice int NOT null,
+    Description text NOT null,
+    upload_time int,
+    Category text NOT null,
+    Img VARCHAR(50) NOT null,
+    Color varchar(30) NOT null,
+    pro_status varchar(30) NOT null,
+    Size varchar(30) NOT null
+    
+)

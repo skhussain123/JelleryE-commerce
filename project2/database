@@ -1,0 +1,52 @@
+create database LoginComplete;
+create TABLE Register(
+Register_ID int PRIMARY KEY AUTO_INCREMENT,
+Username varchar(30),
+Email varchar(40),
+`Password` varchar(20),
+phone varchar(20),
+ Role varchar(10)   
+);
+
+
+
+
+create TABLE message(
+id int PRIMARY KEY AUTO_INCREMENT,
+    con_name varchar(30),
+    con_email varchar(30),
+    con_subject varchar(30),
+    con_message text
+    
+    
+
+
+);
+
+CREATE TABLE order_detail(
+    
+    
+    
+    id int AUTO_INCREMENT PRIMARY KEY,
+    order_name text,
+    products_id text,
+    price int,
+    city text,
+    state text,
+    payment_status text,
+    address text,
+    phone text,
+    user_email text
+    
+    
+    
+
+
+
+
+
+
+
+
+
+);
